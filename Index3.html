@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mijn titel</title>
+</head>
+<body>
+   
+<p id="testId" class="testClass" >test</p>    
+<p id="testId2" class="testClass">test</p>  
+<p id="testId3" clas="testClass">test</p>  
+
+<img src="lego.jpg" width="100" height="100" alt="ïnfo for google" title="Plaatje van legoblokjes"/>
+
+<br>
+<input id="invoer1" class="invoerveld" type="text">
+
+<input type="button" value="test" onclick="functie1()">
+
+
+
+
+
+</body>
+</html>
+
+
+
+<style>
+   
+
+    p{
+        color:blue
+    }
+    #testId {
+        background-color: green;
+    }
+
+    .testClass{
+        border:5px solid #000
+    }
+    #testId{background-color: aqua;}
+
+    #testId2{
+        border-color: red;
+    }
+
+    input {
+        background-color:rgb(255, 0, 0)
+    }
+
+</style>
+
+<script>
+    function functie1(){ //eventlistner
+
+        let naamVariabel; document.getElementById("invoer1").value;
+
+        alert("naamVariabel"); 
+       
+        let wegschrijf = document.getElementById("testId2").innerHTML = "Hallo" + naamVariabel;
+
+
+        
+
+
+
+
+
+
+
+    }
+
+
+
+
+</script>
+
+
+

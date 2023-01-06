@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<head>
+    <title>De leipe lego inspiratie site</title>
+</head>
+
+
+<body> Met het uitvinden van lego ontstond civilisatie "Karl Marx"</body>
+
+
+<p id="testId2" class="testClass">Hieronder vind je lego afbeeldingen</p>
+
+
+<img src="lego.jpg" width="500" alt="info voor google" title="hier kan je plaatje beschrijven"/> 
+<br>
+<p id="testId1" class="testClass">Dit zijn legoblokjes</p>
+
+
+
+
+
+<br>
+
+<img src="legotreinkoploper.jpg" alt="Dit is een koploper lego trein" 
+title="Dit is een koploper van lego" width="500"
+<br>
+<p id="testId2" class="testClass">Dit is een koploper</p>
+
+
+
+<br>
+<br>
+
+<img src="FlyingDutchman.jpg" alt="Dit is een schaalmodel"
+title="dit is de FlyingDutchman" width="500"
+
+
+
+<br>
+
+<p id="testId3" class="testClass">Dit is de vliegende hollander</p>
+
+
+
+
+<br>
+<body> voer hier je naam in </body> <br>
+<input id="invoer1" class="invoerveld" type="text">
+<input id="knop1" type="button" value="rammen" onclick="functie1()">
+<br>
+<body> voer hier je favoriete nummer in </body> <br>
+<input id="invoer2" class="invoerveld" type="number">
+<input id="knop1" type="button" value="raggen" onclick="functie1()">
+<br>
+<body> stel hier je vraag </body> <br>
+<input id="invoer2" class="invoerveld" type="text">
+<input id="knop1" type="button" value="beuken" onclick="functie1()">
+
+
+
+
+</body>
+
+</html>
+ 
+<style>
+html{background-color: aquamarine;
+
+    p{
+        color: blue;
+        padding: 5px;
+    }
+
+    #testId {
+        background-color: green;
+    }
+
+    .testClass{
+        border: 5px solid black;
+    }
+
+    #testId2 {
+        border-color: red;
+    }
+
+    input{
+        background-color:yellowgreen;
+    }
+
+</style>
+
+<script>
+
+    function functie1() { //eventListner
+        let naamVariabel = document.getElementById("invoer1").value;
+        alert(naamVariabel);
+        functie2();
+        document.getElementById("testId2").innerHTML = "ben jij " + naamVariabel +
+         " ook een lego liefhebber?"
+         ;
+    }
+
+</script>
